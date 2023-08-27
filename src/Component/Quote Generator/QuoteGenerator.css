@@ -1,0 +1,111 @@
+.main-div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-box{
+    height: 80%;
+    width: 60%;
+    /* border: 2px greenyellow solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-box>h2{
+    margin: 10px;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: whitesmoke;
+    color: black;
+}
+.text{
+    height: 70%;
+    width: 90%;
+    /* border: 2px greenyellow solid; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.qouteNumber{
+    margin: 20px;
+    text-align: start;
+    width: 100%;
+}
+.author{
+    margin: 20px;
+    width: 100%;
+}
+.quote{
+    margin: 20px;
+    text-align: start;
+    width: 100%;
+}
+button{
+    height: 10%;
+    margin: 1rem;
+    width: 30%;
+    font-weight: 800;
+}
+.myName{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.button-2 {
+    color: #fff;
+    border: 3px solid royalblue;
+    background-image: -webkit-linear-gradient(30deg, royalblue 50%, transparent 50%);
+    background-image: linear-gradient(30deg, royalblue 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .button-2:hover {
+    background-position: 100%;
+    color: white;
+  }
+
+
+@media only screen and (max-width: 780px) {
+
+    .main-box{
+        width: 100%;
+    }
+    .text{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    button{
+        width: 50%;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .qouteNumber{
+        text-align: center;
+    }
+    .quote{
+        text-align: center;
+    }
+    .author{
+        text-align: center;
+    }
+
+}
